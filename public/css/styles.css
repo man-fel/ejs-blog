@@ -2,6 +2,9 @@
     padding-top: 70px;
     padding-bottom: 70px;
 }
+.compose{
+  float: right;
+}
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     background-color: #f4f4f4;

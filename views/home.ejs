@@ -1,6 +1,7 @@
 <%- include("partials/header") -%>
-<h1>Home</h1>
-<p> <%= homeContent %> </p>
+<a href="/compose" class ="btn btn-primary compose" role="button">Compose</a>
+<h1>Welcome to [Your Blog Name]!</h1>
+  <p><%= startingContent %></p>
 <% homePosts.forEach(function(homePost){ %>
     <h1> <%= homePost.title %> </h1>
     <p>  <%= homePost.content.substring(0, 100) + " ..."%> <a href="/posts/<%= homePost.title %>" class="btn btn-primary" role="button">Read More</a></p>
